@@ -41,7 +41,7 @@ Optionally specify range:
 randomVersion({ range: '>' });
 // => '>3.8.6'
 
-randomMinute({ range: true });
+randomVersion({ range: true });
 // => '~2.5.1'
 ```
 
@@ -51,7 +51,7 @@ Optionally specify preRelease:
 randomVersion({ preRelease: '-dev' });
 // => '4.8.6-dev'
 
-randomMinute({ preRelease: true });
+randomVersion({ preRelease: true });
 // => '2.5.1-beta'
 ```  
   
